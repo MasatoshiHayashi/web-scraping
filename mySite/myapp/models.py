@@ -1,5 +1,6 @@
 from django.db import models
 
-class News(models.Model):
-    url = models.CharField(max_length=1000)
+class Dating(models.Model):
+    month = models.CharField(max_length=2)
+    spot = models.CharField(max_length=100)
 # Create your models here.
